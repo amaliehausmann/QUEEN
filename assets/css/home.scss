@@ -87,14 +87,14 @@ main {
         }
 
         .gallery {
-            height: 17rem;
+            height: 15rem;
             position: relative;
 
             .gallery-image {
                 display: none;
                 width: 100%;
                 position: absolute;
-                top: 5%;
+                top: 0;
                 left: 0;
                 animation: fadeOut 1s ease-in-out forwards;
             }
@@ -109,7 +109,7 @@ main {
             text-align: center;
             width: 100%;
             position: absolute;
-            top: 83.5%;
+            bottom: 5%;
 
             .dot {
                 height: 0.5rem;
