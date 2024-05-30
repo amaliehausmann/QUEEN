@@ -118,6 +118,9 @@ main .intro .freddie {
   margin: auto;
   width: 20%;
 }
+main .imgShift {
+  position: relative;
+}
 main .imgShift h2 {
   color: #F0B418;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -135,7 +138,7 @@ main .imgShift .gallery .gallery-image {
   display: none;
   width: 100%;
   position: absolute;
-  top: 57%;
+  top: 15%;
   left: 0;
   animation: fadeOut 1s ease-in-out forwards;
 }
@@ -148,7 +151,7 @@ main .imgShift .dots {
   position: absolute;
   width: 100%;
   position: absolute;
-  top: 82%;
+  top: 93%;
 }
 main .imgShift .dots .dot {
   height: 0.5rem;
@@ -164,6 +167,7 @@ main .imgShift .dots .active-dot {
   background-color: #F0B418;
 }
 main .spotify {
+  position: relative;
   display: grid;
   grid-template-columns: 60% 40%;
   background-color: #431183;
@@ -200,7 +204,7 @@ main .spotify .discsec .circle {
   background-color: #431183;
   border-radius: 1000px;
   position: absolute;
-  top: 102%;
+  top: 40%;
   right: 14.5%;
   box-shadow: inset 0px 0px 5px black;
 }
@@ -208,5 +212,5 @@ main .spotify .discsec .play {
   position: absolute;
   right: 17.7%;
   width: 20px;
-  top: 103.5%;
+  top: 45%;
 }
