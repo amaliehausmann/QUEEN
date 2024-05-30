@@ -90,12 +90,13 @@ main {
 
         .gallery {
             height: 15rem;
+            position: relative;
 
             .gallery-image {
                 display: none;
                 width: 100%;
                 position: absolute;
-                top: 15%;
+                top: 5%;
                 left: 0;
                 animation: fadeOut 1s ease-in-out forwards;
             }
@@ -110,7 +111,7 @@ main {
             text-align: center;
             width: 100%;
             position: absolute;
-            top: 93%;
+            top: 95%;
 
             .dot {
                 height: 0.5rem;
@@ -174,7 +175,7 @@ main {
                 background-color: $purple;
                 border-radius: 1000px;
                 position: absolute;
-                top: 42%;
+                top: 40%;
                 right: 41%;
                 box-shadow: inset 0px 0px 5px black;
             }
@@ -183,7 +184,7 @@ main {
                 position: absolute;
                 right: 48%;
                 width: 20px;
-                top: 48%;
+                top: 46%;
             }
 
         }

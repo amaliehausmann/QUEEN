@@ -133,12 +133,13 @@ main .imgShift img {
 }
 main .imgShift .gallery {
   height: 15rem;
+  position: relative;
 }
 main .imgShift .gallery .gallery-image {
   display: none;
   width: 100%;
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 0;
   animation: fadeOut 1s ease-in-out forwards;
 }
@@ -150,7 +151,7 @@ main .imgShift .dots {
   text-align: center;
   width: 100%;
   position: absolute;
-  top: 93%;
+  top: 95%;
 }
 main .imgShift .dots .dot {
   height: 0.5rem;
@@ -206,7 +207,7 @@ main .spotify .discsec .circle {
   background-color: #431183;
   border-radius: 1000px;
   position: absolute;
-  top: 42%;
+  top: 40%;
   right: 41%;
   box-shadow: inset 0px 0px 5px black;
 }
@@ -214,5 +215,5 @@ main .spotify .discsec .play {
   position: absolute;
   right: 48%;
   width: 20px;
-  top: 48%;
+  top: 46%;
 }
