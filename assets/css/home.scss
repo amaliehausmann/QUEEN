@@ -74,8 +74,6 @@ main {
     }
 
     .imgShift {
-        position: relative;
-
         h2 {
             color: $yellow;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -111,7 +109,7 @@ main {
             text-align: center;
             width: 100%;
             position: absolute;
-            top: 85%;
+            top: 83.5%;
 
             .dot {
                 height: 0.5rem;
