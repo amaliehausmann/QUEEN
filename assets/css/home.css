@@ -194,9 +194,11 @@ main .spotify .discsec {
 }
 main .spotify .discsec .disc {
   width: 95%;
-  margin-top: 40%;
   animation: rotate-center 8s linear infinite both;
   filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.7098039216));
+  position: absolute;
+  top: 20%;
+  right: 10%;
 }
 main .spotify .discsec .circle {
   width: 3rem;
