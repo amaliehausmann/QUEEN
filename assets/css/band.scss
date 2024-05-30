@@ -1,0 +1,65 @@
+@use "./helper/variables" as *;
+@use "./components/footer";
+@use "./components/header";
+@use "./components/intro";
+
+body {
+    margin: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    a:nth-child(1) {
+        color: $yellow;
+    }
+}
+
+main {
+    background-color: $background;
+
+    .artists {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        margin: 3rem 0;
+
+        p{
+            font-size: 0.9rem;
+        }
+
+        h2{
+            font-size: 1.3rem;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        padding: 0 1rem;
+
+        .freddie {
+            h2 {
+                color: $yellow;
+            }
+        }
+
+        .brian {
+            h2 {
+                color: $purple;
+            }
+        }
+
+        .roger{
+            h2{
+                color: $yellow;
+            }
+        }
+
+        .john{
+            h2{
+                color: $purple;
+            }
+        }
+    }
+
+}
