@@ -158,10 +158,11 @@ main {
         }
         .discsec{
             padding-right: 1rem;
+            position: relative;
 
             .disc{
                 width: 95%;
-                margin-top: 3rem;
+                margin-top: 3.5rem;
                 animation: rotate-center 8s linear infinite both;
                 filter: drop-shadow(2px 2px 5px #000000b5);
             }
@@ -172,16 +173,16 @@ main {
                 background-color: $purple;
                 border-radius: 1000px;
                 position: absolute;
-                top: 40%;
-                right: 14.5%;
+                top: 42%;
+                right: 41%;
                 box-shadow: inset 0px 0px 5px black;
             }
     
             .play{
                 position: absolute;
-                right: 17.7%;
+                right: 48%;
                 width: 20px;
-                top: 45%;
+                top: 48%;
             }
 
         }
