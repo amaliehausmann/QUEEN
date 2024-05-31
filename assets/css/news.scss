@@ -1,0 +1,77 @@
+@use "./helper/variables" as *;
+@use "./components/footer";
+@use "./components/header";
+@use "./components/intro";
+
+body{
+    margin: auto;
+    overflow-x: hidden;
+}
+#successMessage {
+    display: none;
+    color: $purple;
+    text-align: center;
+    font-weight: 800;
+}
+
+.newsletter{
+    background-color: $yellow;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    h2{
+        color: $purple;
+        margin-top: -1rem;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        label{
+            color: $purple;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+        div{
+            margin: auto;
+            display: block;
+
+            input{
+                border-radius: 10px;
+                border-style: none;
+                padding: 0.5rem 1rem;
+                width: 250px;
+            }
+
+            select{
+                border-radius: 10px;
+                padding: 0.5rem 0rem;
+                border-style: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            #number{
+                width: 210px;
+            }
+
+            button{
+                background-color: $purple;
+                color: $white;
+                padding: 0.5rem 2rem;
+                margin-top: 2rem;
+                border-radius: 20px;
+                border-style: none;
+                font-weight: 700;
+                font-size: 1rem;
+                cursor: pointer;
+
+            }
+
+            input.invalid, select.invalid {
+                border: 2px solid rgb(212, 40, 40);
+            }
+        }
+    }
+
+
+}

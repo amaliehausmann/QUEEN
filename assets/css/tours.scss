@@ -1,0 +1,78 @@
+@use "./helper/variables" as *;
+@use "./components/footer";
+@use "./components/header";
+@use "./components/intro";
+
+body{
+    margin: auto;
+}
+
+nav{
+    a:nth-child(2){
+        color: $yellow;
+    }
+}
+
+button{
+    margin: auto;
+    display: block;
+    background-color: $yellow;
+    border-radius: 5rem;
+    padding: 0.5rem 2rem;
+    border-style: none;
+
+    a{
+        text-decoration: none;
+        color: $purple;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
+.tours{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $purple;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    h2{
+        text-align: center;
+        color: $yellow;
+        font-size: 2rem;
+    }
+
+    .botText{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    h3{
+        color: $white;
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    p{
+        color: $white;
+        font-weight: 700;
+        span{
+            font-weight: 500;
+        }
+    }
+
+    .grids{
+        display: grid;
+        grid-template-columns: 20% 30% 50%;
+        border-bottom: 2px solid $white;
+        padding-left: 1rem;
+        text-align: center;
+        &:nth-child(1){
+            border-top: 2px solid $white;
+        }
+    }
+
+    .japan{
+        padding-bottom: 2rem;
+    }
+}

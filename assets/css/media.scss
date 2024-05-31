@@ -1,0 +1,25 @@
+@use "./helper/variables" as *;
+@use "./components/footer";
+@use "./components/header";
+@use "./components/intro";
+
+body{
+    margin: auto;
+    overflow-x: hidden;
+}
+
+nav{
+    a:nth-child(4){
+        color: $yellow;
+    }
+}
+
+.media{
+    margin-top: 2rem;
+    img{
+        width: 90%;
+        display: block;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,35 @@
+@use "./helper/variables" as *;
+@use "./components/footer";
+@use "./components/header";
+@use "./components/intro";
+
+
+body{
+    margin: auto;
+    overflow-x: hidden;
+}
+
+nav{
+    a:nth-child(3){
+        color: $yellow;
+    }
+}
+
+.discs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2rem;
+    p{
+        text-align: center;
+        font-weight: 700;
+        color: $purple;
+        margin-bottom: 1rem;
+    }
+
+    img{
+        width: 90%;
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        border: solid 4px $purple;
+    }
+}
