@@ -126,6 +126,12 @@ body {
   overflow-x: hidden;
 }
 
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
 nav a:nth-child(5) {
   color: #F0B418;
 }
@@ -141,6 +147,7 @@ nav a:nth-child(5) {
   background-color: #F0B418;
   padding: 2rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 4rem;
 }
 .newsletter h2 {
   color: #431183;
