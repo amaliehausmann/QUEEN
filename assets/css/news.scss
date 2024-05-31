@@ -7,6 +7,12 @@ body{
     margin: auto;
     overflow-x: hidden;
 }
+
+nav{
+    a:nth-child(5){
+        color: $yellow;
+    }
+}
 #successMessage {
     display: none;
     color: $purple;
